@@ -1,5 +1,3 @@
 <ul>
-    @for(ucenik of uceniciList; track ucenik){
-    <li>{{ucenik}}</li>
-    }
+  <li *ngFor="let u of uceniciList">{{ u }}</li>
 </ul>
